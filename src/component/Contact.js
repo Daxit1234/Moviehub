@@ -3,8 +3,8 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <h1 className='text-center mt-3'>CONTECT US</h1>
-      <div className='row' style={{marginTop:"8rem",marginLeft:"8rem"}}>
+    <h1 className='text-center mt-5'>CONTECT US</h1>
+      <div className='row' style={{marginTop:"5rem",marginLeft:"8rem"}}>
       <div className="card col-4 mx-5" style={{ width: "18rem" }}>
       <i style={{fontSize:'5rem'}} className="fa-solid fa-phone text-center text-warning"></i>
           <div className="card-body">
@@ -30,7 +30,7 @@ function Contact() {
             <p className="card-text text-center">Chat with a member of your in house team</p><br />
             <button style={{width:'10rem'}} className="btn btn-primary">START HEAR</button>
           </div>
-        </div>s
+        </div>
       </div>
     </>
   )

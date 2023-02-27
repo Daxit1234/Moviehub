@@ -10,6 +10,9 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Login from './component/Login';
 import Singin from './component/Singin';
+import Movie from './component/Movie';
+import Movietime from './component/Movietime';
+import Movieseat from './component/Movieseat';
 function App() {
   return (
     <>
@@ -21,6 +24,9 @@ function App() {
            <Route exact path='/contact' element={<Contact/>} />
            <Route exact path='/login' element={<Login/>} />
            <Route exact path='/singin' element={<Singin/>} />
+           <Route exact path='/movies' element={<Movie/>} />
+           <Route exact path='/movietime' element={<Movietime/>} />
+           <Route exact path='/movieseat' element={<Movieseat/>} />
         </Routes>
        </Router>
     </>
