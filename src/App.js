@@ -13,6 +13,8 @@ import Singin from './component/Singin';
 import Movie from './component/Movie';
 import Movietime from './component/Movietime';
 import Movieseat from './component/Movieseat';
+import Payment from './component/Payment';
+import Feedback from './component/Feedback';
 function App() {
   return (
     <>
@@ -27,6 +29,8 @@ function App() {
            <Route exact path='/movies' element={<Movie/>} />
            <Route exact path='/movietime' element={<Movietime/>} />
            <Route exact path='/movieseat' element={<Movieseat/>} />
+           <Route exact path='/payment' element={<Payment/>} />
+           <Route exact path='/feedback' element={<Feedback/>} />
         </Routes>
        </Router>
     </>

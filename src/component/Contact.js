@@ -24,7 +24,7 @@ function Contact() {
           </div>
         </div>
         <div className="card col-4 mx-5" style={{ width: "18rem" }}>
-        <i style={{fontSize:'5rem'}} class="fa-sharp fa-solid fa-comments text-center text-warning"></i>
+        <i style={{fontSize:'5rem'}} className="fa-sharp fa-solid fa-comments text-center text-warning"></i>
           <div className="card-body">
             <h5 className="card-title text-center">LIVE CHAT</h5><br />
             <p className="card-text text-center">Chat with a member of your in house team</p><br />

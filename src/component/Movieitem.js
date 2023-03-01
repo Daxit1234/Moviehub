@@ -10,11 +10,11 @@ function Movieitem(props) {
          <h5 className="card-title">{title}</h5>
         <div className='d-flex justify-content-between'>
          <h5 className="card-title">{released}</h5>
-         <h5 className="card-title">{imdbrating}</h5>
+         <h5 className="card-title"><i className="fa-solid fa-star text-warning"></i>{imdbrating}/10</h5>
         </div>
          <h5 className="card-title">{genre}</h5>
       <p className="card-text">{discription.slice(0,50)}</p>
-      <Link to="/movietime" className="btn btn-primary">Book</Link>
+      <Link to="/movietime" className="btn btn-primary mt-3">Book</Link>
     </div>
   </div>
   )
