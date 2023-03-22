@@ -20,6 +20,8 @@ function App() {
     <>
        <Router>
         <Navbar/>
+        <div style={{'marginTop':'56px'}}>
+
         <Routes>
            <Route exact path='/' element={<Home/>} />
            <Route exact path='/about' element={<About/>} />
@@ -32,6 +34,7 @@ function App() {
            <Route exact path='/payment' element={<Payment/>} />
            <Route exact path='/feedback' element={<Feedback/>} />
         </Routes>
+        </div>
        </Router>
     </>
   );

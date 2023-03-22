@@ -1,9 +1,9 @@
 .img{
     position: absolute;
-    background-image: url(home.jpg);
+    background-image: url(photo_2023-03-18_15-39-46.jpg);
     background-size: cover;
     background-position: center 60%;
-    height: 38rem;
+    height: 40rem;
     width: 100%;
 }
 .box{
