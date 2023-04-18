@@ -4,13 +4,16 @@ import { Link } from 'react-router-dom';
 function Movieseat() {
   const numCheckboxes = 150;
   const checkboxes = [];
- const [tikets,setikets]=useState(0);
+ const [tikets,setikets]=useState(null);
+ const [total,settotal]=useState(null);
  let handlechackbox=(e)=>{
   if(e.target.checked){
     setikets(tikets+1)
+    settotal(total+200)
   }
   else{
     setikets(tikets-1)
+    settotal(total-200)
   }
 }
   for (let i = 0; i < numCheckboxes; i++) {
@@ -39,7 +42,7 @@ function Movieseat() {
           </div>
         </div>
         <div className='text-center'>
-          <Link className='btn btn-primary mt-3' to="/payment">{tikets} Tikets</Link>
+          <Link className='btn btn-primary mt-3' to="/payment">{tikets} Tikets {total} Rupees</Link>
         </div>
       </div>
     </>

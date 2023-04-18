@@ -22,7 +22,7 @@ import Movieitem from "./Movieitem";
    try {
        return (
            <div>
-               <div className="row">
+               <div className="row mx-2">
                    {data.results.map((element) => {
                        return (
                            <div className="col-md-3 col-sm-12" key={element.imdbid}>
